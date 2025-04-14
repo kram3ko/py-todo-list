@@ -1,0 +1,39 @@
+{% load query_transform %}
+<aside id="desktop-sidebar"
+       class="hidden lg:block fixed top-[104px] h-[calc(100vh-104px)] w-64 bg-white border-r shadow-sm p-6 z-20">
+  <h2 class="text-xl font-bold text-gray-800 mb-6">📝 To-Do Panel</h2>
+
+  <nav class="flex flex-col space-y-4">
+    <a href="{% url 'todo:index' %}"
+       class="text-gray-700 hover:text-blue-600 transition font-medium">
+      🏠 Home
+    </a>
+
+    <a href="{% url 'todo:tags-list' %}"
+       class="text-gray-700 hover:text-blue-600 transition font-medium">
+      🏷️ Tags
+    </a>
+
+    <a href="{% url 'todo:task-create' %}?next={{ request.get_full_path }}"
+       class="text-white bg-blue-500 hover:bg-blue-600 transition px-4 py-2 rounded text-center mt-6">
+      ➕ Add New Task
+    </a>
+  </nav>
+
+  <div class="mt-10">
+    <h3 class="text-gray-500 uppercase text-xs mb-2">Quick Filter</h3>
+    <ul class="space-y-2 text-sm">
+      <li>
+        <a href="?tag_status=done" class="text-gray-600 hover:text-green-600">✅ Completed</a>
+      </li>
+      <li>
+        <a href="?tag_status=undone" class="text-gray-600 hover:text-red-600">🕒 Pending</a>
+      </li>
+      <li>
+        <a href="?tag_status=today" class="text-gray-600 hover:text-indigo-600">📅 Today</a>
+      </li>
+
+    </ul>
+  </div>
+
+</aside>

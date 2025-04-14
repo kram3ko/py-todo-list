@@ -1,0 +1,237 @@
+[
+  {
+    "model": "todo.tag",
+    "pk": 1,
+    "fields": {"name": "Work"}
+  },
+  {
+    "model": "todo.tag",
+    "pk": 2,
+    "fields": {"name": "Home"}
+  },
+  {
+    "model": "todo.tag",
+    "pk": 3,
+    "fields": {"name": "Urgent"}
+  },
+  {
+    "model": "todo.task",
+    "pk": 1,
+    "fields": {
+      "content": "Finish the report",
+      "created_at": "2025-04-14T08:00:00Z",
+      "deadline": "2025-04-15T12:00:00Z",
+      "is_done": false,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 2,
+    "fields": {
+      "content": "Buy groceries",
+      "created_at": "2025-04-13T14:30:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 3,
+    "fields": {
+      "content": "Call the dentist",
+      "created_at": "2025-04-12T10:00:00Z",
+      "deadline": "2025-04-16T10:00:00Z",
+      "is_done": true,
+      "tags": [2, 3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 4,
+    "fields": {
+      "content": "Prepare for meeting",
+      "created_at": "2025-04-11T09:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 5,
+    "fields": {
+      "content": "Read a book",
+      "created_at": "2025-04-10T18:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 6,
+    "fields": {
+      "content": "Water the plants",
+      "created_at": "2025-04-09T07:30:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 7,
+    "fields": {
+      "content": "Pay electricity bill",
+      "created_at": "2025-04-08T13:45:00Z",
+      "deadline": "2025-04-20T00:00:00Z",
+      "is_done": false,
+      "tags": [3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 8,
+    "fields": {
+      "content": "Clean the kitchen",
+      "created_at": "2025-04-07T16:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 9,
+    "fields": {
+      "content": "Walk the dog",
+      "created_at": "2025-04-06T19:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 10,
+    "fields": {
+      "content": "Submit assignment",
+      "created_at": "2025-04-05T11:30:00Z",
+      "deadline": "2025-04-14T23:59:00Z",
+      "is_done": false,
+      "tags": [1, 3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 11,
+    "fields": {
+      "content": "Book flight tickets",
+      "created_at": "2025-04-04T15:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 12,
+    "fields": {
+      "content": "Do laundry",
+      "created_at": "2025-04-03T09:45:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 13,
+    "fields": {
+      "content": "Visit grandma",
+      "created_at": "2025-04-02T10:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 14,
+    "fields": {
+      "content": "Renew insurance",
+      "created_at": "2025-04-01T12:15:00Z",
+      "deadline": "2025-04-30T00:00:00Z",
+      "is_done": false,
+      "tags": [3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 15,
+    "fields": {
+      "content": "Clean workspace",
+      "created_at": "2025-03-31T08:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 16,
+    "fields": {
+      "content": "Attend yoga class",
+      "created_at": "2025-03-30T17:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 17,
+    "fields": {
+      "content": "Organize bookshelf",
+      "created_at": "2025-03-29T10:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": []
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 18,
+    "fields": {
+      "content": "Backup files",
+      "created_at": "2025-03-28T20:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 19,
+    "fields": {
+      "content": "Schedule dentist visit",
+      "created_at": "2025-03-27T09:00:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 20,
+    "fields": {
+      "content": "Plan birthday party",
+      "created_at": "2025-03-26T11:00:00Z",
+      "deadline": "2025-04-25T00:00:00Z",
+      "is_done": false,
+      "tags": []
+    }
+  }
+]
